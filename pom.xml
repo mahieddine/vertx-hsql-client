@@ -4,7 +4,7 @@
 
     <groupId>io.github.mahieddine</groupId>
     <artifactId>vertx-hsql-client</artifactId>
-    <version>3.4.2-SNAPSHOT</version>
+    <version>3.4.2</version>
     <packaging>jar</packaging>
 
     <description>HSQL Client is a Vert.x ext that provides a HSQL connector compatible with jooq (it expose the native
@@ -18,8 +18,7 @@
         </snapshotRepository>
         <repository>
             <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/
-            </url>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
     </distributionManagement>
 
@@ -58,7 +57,7 @@
         <connection>scm:git:git://github.com:mahieddine/vertx-hsql-client.git</connection>
         <developerConnection>scm:git:git@github.com:mahieddine/vertx-hsql-client.git</developerConnection>
         <url>https://github.com/mahieddine/vertx-hsql-client</url>
-        <tag>HEAD</tag>
+        <tag>v3.4.2</tag>
     </scm>
 
     <developers>
@@ -142,7 +141,7 @@
                         <localCheckout>true</localCheckout>
                         <pushChanges>false</pushChanges>
                         <mavenExecutorId>forked-path</mavenExecutorId>
-                        <arguments>-Dgpg.passphrase=${passphrase}</arguments>
+                        <arguments>-Dgpg.passphrase=${gpg.passphrase}</arguments>
                         <checkModificationExcludes>
                             <checkModificationExclude>pom.xml</checkModificationExclude>
                             <checkModificationExclude>settings.xml</checkModificationExclude>

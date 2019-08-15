@@ -4,7 +4,7 @@
 
     <groupId>io.github.mahieddine</groupId>
     <artifactId>vertx-hsql-client</artifactId>
-    <version>3.4.3-SNAPSHOT</version>
+    <version>3.4.2</version>
     <packaging>jar</packaging>
 
     <description>HSQL Client is a Vert.x ext that provides a HSQL connector compatible with jooq (it expose the native
@@ -57,7 +57,7 @@
         <connection>scm:git:git://github.com:mahieddine/vertx-hsql-client.git</connection>
         <developerConnection>scm:git:git@github.com:mahieddine/vertx-hsql-client.git</developerConnection>
         <url>https://github.com/mahieddine/vertx-hsql-client</url>
-        <tag>HEAD</tag>
+        <tag>v3.4.2</tag>
     </scm>
 
     <developers>

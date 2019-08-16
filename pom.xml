@@ -6,11 +6,19 @@
     <artifactId>vertx-hsql-client</artifactId>
     <version>3.4.3-SNAPSHOT</version>
     <packaging>jar</packaging>
-
+    <inceptionYear>2018</inceptionYear>
+    <name>vertx-hsql-client</name>
     <description>HSQL Client is a Vert.x ext that provides a HSQL connector compatible with jooq (it expose the native
         SQL.Connection interface rather than the Vertx' own SQLConnection
     </description>
-    <inceptionYear>2018</inceptionYear>
+    <url>https://github.com/mahieddine/vertx-hsql-client</url>
+    <licenses>
+        <license>
+            <name>MIT</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>

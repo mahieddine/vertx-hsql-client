@@ -5,6 +5,16 @@
 
 HSQL Client is a Vert.x ext that provides a HSQL connector compatible with jooq, it expose the native SQL.Connection interface rather than the Vertx' own SQLConnection
 
+# Maven
+
+```xml
+<dependency>
+  <groupId>io.github.mahieddine</groupId>
+  <artifactId>vertx-hsql-client</artifactId>
+  <version>3.4.2</version>
+</dependency>
+```
+
 # Usage
 ```java
 # Init HSQL Connection
@@ -28,14 +38,4 @@ hsqlClient.getConnection(connectionAsyncResult -> {
 
 # After that you can use the jooqConf object to init your JOOQ DAO and perform your requests normally :) 
 
-```
-
-# Maven
-
-```xml
-<dependency>
-  <groupId>io.github.mahieddine</groupId>
-  <artifactId>vertx-hsql-client</artifactId>
-  <version>3.4.2</version>
-</dependency>
 ```

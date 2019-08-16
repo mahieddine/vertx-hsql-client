@@ -29,3 +29,13 @@ hsqlClient.getConnection(connectionAsyncResult -> {
 # After that you can use the jooqConf object to init your JOOQ DAO and perform your requests normally :) 
 
 ```
+
+# Maven
+
+```xml
+<dependency>
+  <groupId>io.github.mahieddine</groupId>
+  <artifactId>vertx-hsql-client</artifactId>
+  <version>3.4.2</version>
+</dependency>
+```

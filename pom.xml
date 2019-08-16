@@ -4,7 +4,7 @@
 
     <groupId>io.github.mahieddine</groupId>
     <artifactId>vertx-hsql-client</artifactId>
-    <version>3.4.2</version>
+    <version>3.4.3-SNAPSHOT</version>
     <packaging>jar</packaging>
     <inceptionYear>2018</inceptionYear>
     <name>vertx-hsql-client</name>
@@ -65,7 +65,7 @@
         <connection>scm:git:git://github.com:mahieddine/vertx-hsql-client.git</connection>
         <developerConnection>scm:git:git@github.com:mahieddine/vertx-hsql-client.git</developerConnection>
         <url>https://github.com/mahieddine/vertx-hsql-client</url>
-        <tag>v3.4.2</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <developers>

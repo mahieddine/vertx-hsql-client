@@ -83,7 +83,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <vertx.version>3.4.1</vertx.version>
+        <vertx.version>4.5.24</vertx.version>
         <log4j2.version>2.10.0</log4j2.version>
         <junit.version>4.13.1</junit.version>
         <maven.compiler.plugin.version>3.6.1</maven.compiler.plugin.version>
